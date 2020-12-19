@@ -101,4 +101,3 @@ if __name__ == '__main__':
         print(sol.res)
     else:
         print('неправильный ввод')
-
