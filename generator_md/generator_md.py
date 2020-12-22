@@ -54,7 +54,7 @@ def merge_solutions(old_solution, new_solution):
 
 
 def main():
-    in_txt = read_all_lines_from('source_leetcode_data.txt')
+    in_txt = read_all_lines_from('src.txt')
     source = LeetCodeSolution(in_txt[0], in_txt[1], in_txt[3:])
     new = source.get_md_formatted_solution()
     old = read_all_file('intervals.md')
